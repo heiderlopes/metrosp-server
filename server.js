@@ -3,6 +3,8 @@ var express = require('express'),
     azul = require('./azul'),
     linhas = require('./linhas');
 
+app.use(express.static('public'));
+
 app.use('/linhas', linhas);
 
 app.use('/linhas', azul);

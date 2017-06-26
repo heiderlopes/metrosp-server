@@ -8,27 +8,33 @@ router.get('/', function(req, res) {
 const LINHAS = [
     {
         "cor" : "AZUL",
-        "numero" : "1"
+        "numero" : "1",
+        "urlImagem" : "/images/metro_sp.png"
     },
     {
         "cor" : "VERDE",
-        "numero" : "2"
+        "numero" : "2",
+        "urlImagem" : "/images/metro_sp.png"
     },
     {
         "cor" : "VERMELHA",
-        "numero" : "3"
+        "numero" : "3",
+        "urlImagem" : "/images/metro_sp.png"
     },
     {
         "cor" : "AMARELA",
-        "numero" : "4"
+        "numero" : "4",
+        "urlImagem" : "/images/metro_sp.png"
     },
     {
         "cor" : "LILÁS",
-        "numero" : "5"
+        "numero" : "5",
+        "urlImagem" : "/images/metro_sp.png"
     },
     {
         "cor" : "PRATA",
-        "numero" : "15"
+        "numero" : "15",
+        "urlImagem" : "/images/metro_sp.png"
     },
 ]
 
