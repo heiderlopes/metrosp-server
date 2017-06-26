@@ -3,9 +3,9 @@ var express = require('express'),
     azul = require('./azul'),
     linhas = require('./linhas');
 
-app.use('/azul', azul);
-
 app.use('/linhas', linhas);
+
+app.use('/linhas', azul);
 
 var server = app.listen(3000);
 

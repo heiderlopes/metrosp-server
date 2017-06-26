@@ -7,7 +7,7 @@ var router = express.Router();
   next();
 });*/
 
-router.get('/linhas/azul/estacoes', function(req, res) {
+router.get('/azul/estacoes', function(req, res) {
   res.send(ESTACOES_LINHA_AZUL);
 });
 
