@@ -19,7 +19,8 @@ const ESTACOES_LINHA_AZUL = [
         "longitude" : "-46.6425470",
         "capacidade_passageiro_hora_pico" : "20.000",
         "area_construida_m_2" : 6850,
-        "inauguracao" : "14/09/1974"
+        "inauguracao" : "14/09/1974",
+        "urlImagem" : "/images/estacao_jabaquara.jpg"
     },
     {
         "nome" : "CONCEIÇÃO",

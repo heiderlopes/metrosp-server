@@ -1,13 +1,13 @@
 var express = require('express'),
     app = express(),
-    azul = require('./azul'),
+    estacoes_azul = require('./estacoes_azul'),
     linhas = require('./linhas');
 
 app.use(express.static('public'));
 
 app.use('/linhas', linhas);
 
-app.use('/linhas', azul);
+app.use('/linhas', estacoes_azul);
 
 var server = app.listen(3000);
 
