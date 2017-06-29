@@ -7,9 +7,7 @@ var express = require('express'),
 app.use(express.static('public'));
 
 app.use('/linhas', linhas);
-
 app.use('/linhas', estacoes_azul);
-
 app.use('/linhas', estacoes_verde);
 
 var server = app.listen(3000);
