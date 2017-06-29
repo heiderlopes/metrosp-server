@@ -24,7 +24,7 @@ const LINHAS = [
     {
         "cor" : "AMARELA",
         "numero" : "4",
-        "urlImagem" : "/images/metro_sp.png"
+        "urlImagem" : "/images/viaquatro.png"
     },
     {
         "cor" : "LILÁS",
